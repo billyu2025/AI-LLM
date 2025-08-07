@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "projects": {
+    "web": {
+      "root": "apps/web",
+      "projectType": "application"
+    },
+    "app": {
+      "root": "apps/app",
+      "projectType": "application"
+    },
+    "api-gateway": {
+      "root": "services/api-gateway",
+      "projectType": "application"
+    },
+    "llm-gpt": {
+      "root": "services/llm-gpt",
+      "projectType": "application"
+    },
+    "llm-gemini": {
+      "root": "services/llm-gemini",
+      "projectType": "application"
+    },
+    "llm-claude": {
+      "root": "services/llm-claude",
+      "projectType": "application"
+    },
+    "multimodal": {
+      "root": "services/multimodal",
+      "projectType": "application"
+    },
+    "user": {
+      "root": "services/user",
+      "projectType": "application"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "ai-multimodal-app",
+  "private": true,
+  "devDependencies": {
+    "nx": "^18.0.0"
+  },
+  "workspaces": [
+    "apps/*",
+    "services/*",
+    "libs/*"
+  ]
+}

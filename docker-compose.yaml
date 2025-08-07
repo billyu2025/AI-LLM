@@ -1,0 +1,28 @@
+version: "3.8"
+services:
+  api-gateway:
+    build: ./services/api-gateway
+    ports:
+      - "3001:3000"
+    environment:
+      - NODE_ENV=development
+  llm-gpt:
+    build: ./services/llm-gpt
+    ports:
+      - "3011:3000"
+  llm-gemini:
+    build: ./services/llm-gemini
+    ports:
+      - "3012:3000"
+  llm-claude:
+    build: ./services/llm-claude
+    ports:
+      - "3013:3000"
+  multimodal:
+    build: ./services/multimodal
+    ports:
+      - "3020:3000"
+  user:
+    build: ./services/user
+    ports:
+      - "3030:3000"
